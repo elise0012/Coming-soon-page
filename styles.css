@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  line-height: 1.6;
+  color: #000066;
+  background-color: #d1eeee;
+}
+
+h2,h6 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h2 {
+  letter-spacing: 5px;
+  margin-bottom: 15px;
+  font-size:30px;
+  color:#FFFFFF;
+}
+
+mark.orange {
+    color:#FFC000;
+    background: none;
+}
+
+mark.bold_orange {
+    color:#FFC000;
+    font-weight: bold;
+    font-size:35px;
+    background: none;
+}
+
+mark.black {
+  color:#000066;
+  font-size:32px;
+  text-decoration: underline;
+  background: none;
+}
+
+#message {
+  margin: 0 auto
+}
+
+#logo {
+  border-top: 0;
+  padding-top: 0;
+  margin: 0 auto;
+}
+
+#counter{
+  font-size:20px;
+  color:#000066;
+  margin: 0 auto;
+}
+
+#signupform {
+  font-size:20px;
+  color:#000066;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#sumbit{
+  color:#FFC000;
+  font-family: 'Open Sans', sans-serif
+}
+
+#submitted{
+    color:#000066;
+}
+
+@media(min-width: 992px) {
+  h2 {
+    margin: 0;
+  }
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+  color: #000066;
+}
+a:hover,
+a:focus {
+  color: #FFC000;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+#socail {
+  font-size:10px;
+  color:#000066;
+}
+
+section {
+  margin: 60px auto;
+}
+
+section > .container > .row {
+  border-top: 2px solid #747E80;
+  padding-top: 60px;
+}
+section:first-of-type > .container > .row {
+  border-top: 0;
+  padding-top: 0;
+}
+
+footer {
+  margin: 60px 0;
+}

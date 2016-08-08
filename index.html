@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CompanyName</title>
+	<!--<script  src="js/countdown.js"></script>-->
+	<link rel="stylesheet" href="css/bootstrap.css" >
+	<link rel="stylesheet" href="css/styles.css" >
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="shortcut icon" href="img/favicon.png">
+	<script src="https://use.fontawesome.com/4c4bfe72a7.js"></script>
+</head>
+<body>
+	<section class="main-content">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+			    	<img id="logo" src="img/companyname_logo.jpg" class="img-responsive" alt=" ">
+			    </div>
+				<div class="col-sm-6 text-center" id="message">
+					<h2>OUR WEBSITE <mark class="orange">WILL</mark> BE	<mark class="bold_orange">LAUNCHED</mark> SOON...</h2>
+					<h2>BE INFORMED ON <a href="https://twitter.com"><mark class="black">TWITTER</mark></a></h2>
+				</div>
+			</div>
+		</div>	
+		<div class="container text-center">	
+			<div class="row">
+				<div class="col-sm-12">
+					<!-- Get Notified form --> 
+					<form method="post" action="emailform.php" id="signupform">
+	                    <input class="email rounded shadow" name="email" id="email" type="text" value="Enter Your Email Address" onfocus="if(this.value=='Enter Your Email Address'){this.value=''};" />
+	                    <input class="btn btn-default" class="submit color_button rounded" type="submit" value="Notify Me" name="submit" id="submit" />
+	                    <p><input type="hidden" name="submitted" id="submitted" value="true" /></p>
+	                </form>
+				</div>		
+			</div>
+		</div>
+	</section>
+	
+<footer>
+    <div class="container text-center">
+		<a href="https://facebook.com" target="_blank"><i class="fa fa-facebook-square fa-1x"></i></a>
+		<a href="https://twitter.com" target="_blank"><i class="fa fa-twitter-square fa-1x"></i></a>
+		<h6>&copy; 2016 CompanyName </h6>
+    </div>
+</footer>
+
+<!--<script  src="js/countdown.js"></script>-->
+<script src="js/custom.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script>
+	$('body').scrollspy({ target: '#navbar' , offset:200});
+</script>
+</body>
+</html>
